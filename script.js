@@ -11,9 +11,9 @@ createApp({
   },
   methods: {
     getApi(){
-      axios.get(tjis.apiUrl)
+      axios.get(this.apiUrl)
        .then(result => {
-        this.list = resul.data;
+        this.list = result.data;
         console.log(this.list);
        })
     }
@@ -22,5 +22,5 @@ createApp({
   mounted(){
     this.getApi();
   }
-  
+
 }).mount('#app')
