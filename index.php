@@ -27,21 +27,29 @@
 <body>
 
   <div id="app" class="container">
-    <h1>ciao</h1>
 
+  <header>
+    <i class="fa-brands fa-spotify" style="color: #16d961;"></i>
+  </header>
 
-    <div 
-    v-for="(item,index) in list"
-    :key="index"
-    class="card" style="width: 18rem;">
-      <img :src="item.poster" class="card-img-top" alt="item.title">
-       <div class="card-body">
+  <main>
+  <div class="container-card d-flex ">
+      <div 
+       v-for="(item,index) in list"
+       :key="index"
+       class="card" style="width: 18rem;">
+         <img :src="item.poster" class="card-img-top" alt="item.title">
+         <div class="card-body">
           <h2 class="card-title">{{item.title}}</h2>
           <h5>{{item.author}}</h5>
           <h6>{{item.year}}</h6>
           <span>{{item.genre}}</span>
-       </div>
+         </div>
+      </div>
     </div>
+  </main>
+
+    
   </div>
 
 
