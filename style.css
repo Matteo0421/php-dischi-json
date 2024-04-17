@@ -1,3 +1,10 @@
-header i {
-  width: 230px;
+header,
+.card{
+  background-color: rgb(151, 204, 188);
 }
+
+main{
+  background-color: rgb(212, 233, 221);
+  height: 100vh;
+}
+
