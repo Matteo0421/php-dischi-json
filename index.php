@@ -16,8 +16,8 @@
   <!-- AXIOS -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.js' integrity='sha512-pmaEGtUAy7E5gRmwjLqQAD/QWw0dL4Z59b6b+2HQkqQwQ+HcPLLb9/KbUNo5zr10WuXmbivK9nYVZOyDkMgZMg==' crossorigin='anonymous'></script>
 
-  <!-- VUE -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.23/vue.global.js' integrity='sha512-nG1pzAdB6onYkrCldpnkwHzZw7H3IUL4RLhinI7XEioaM8PHQDeHD6zPf+tog9WlKLAojc4zddvkTUpHvAZbew==' crossorigin='anonymous'></script>
+  <!-- VueJs  -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <!-- custom CSS -->
   <link rel="stylesheet" href="style.css">
@@ -25,6 +25,13 @@
   <title>php-dischi-json</title>
 </head>
 <body>
-  <h1>ciao</h1>
+
+  <div id="app" class="container">
+    <h1>ciao</h1>
+  </div>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
