@@ -5,6 +5,12 @@ header,
 
 main{
   background-color: rgb(212, 233, 221);
-  height: 100vh;
 }
-
+.container-card{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card{
+  margin: 0 auto;
+  margin-top: 50px;
+}

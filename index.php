@@ -29,18 +29,18 @@
   <div id="app" >
 
   <header>
-    <i class="fa-brands fa-spotify fs-1" style="color: #16d961;"></i>
+    <i class="fa-brands fa-spotify fs-1 ps-5 pt-3 pb-3" style="color: #16d961;"></i>
   </header>
 
   <main>
-  <div class="container-card d-flex p-5">
+  <div class="container-card d-flex flex-wrap p-5">
       <div 
        v-for="(item,index) in list"
        :key="index"
-       class="card me-3" style="width: 18rem;">
+       class="card  " style="width: 18rem;">
          <img :src="item.poster" class="card-img-top p-3" alt="item.title">
-         <div class="card-body">
-          <h2 class="card-title">{{item.title}}</h2>
+         <div class="card-body text-white text-center">
+          <h2 class="card-title" >{{item.title}}</h2>
           <h5>{{item.author}}</h5>
           <h6>{{item.year}}</h6>
           <span>{{item.genre}}</span>
