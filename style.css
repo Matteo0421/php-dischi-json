@@ -3,7 +3,7 @@ header,
   background-color: rgb(151, 204, 188);
 }
 
-main{
+body{
   background-color: rgb(212, 233, 221);
 }
 .container-card{
@@ -13,4 +13,12 @@ main{
 .card{
   margin: 0 auto;
   margin-top: 50px;
+}
+
+
+.container-form{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(151, 204, 188);
+  margin-bottom: 100px;
 }
