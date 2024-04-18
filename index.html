@@ -43,7 +43,12 @@
           <h2 class="card-title" >{{item.title}}</h2>
           <h5>{{item.author}}</h5>
           <h6>{{item.year}}</h6>
-          <span>{{item.genre}}</span>
+          <h6>{{item.genre}}</h6>
+
+          <button 
+          @click="removeDisk(index)"
+          class="btn btn-outline-danger mt-4 ">
+          <i class="fa-solid fa-trash"></i></button>
          </div>
       </div>
 

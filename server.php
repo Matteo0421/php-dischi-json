@@ -17,6 +17,14 @@ if(isset($_POST['newDiskAuthor'])){
 }
 
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['indexToDelete'])) {
+  $index = $_POST['indexToDelete'];
+  if (isset($dischi[$index])) {
+    array_splice($dischi, $index, 1);
+    file_put_contents('dischi.json', json_encode($dischi));
+  }
+}
+
 header('Content-Type: application/json');
 
 echo json_encode($dischi, JSON_PRETTY_PRINT);
