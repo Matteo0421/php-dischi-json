@@ -8,11 +8,11 @@ createApp({
       apiUrl: 'server.php',
       list: [],
       newDisk:{
-        poster: '',
-        author:'',
-        title:'',
-        year:'',
-        genre:''
+        poster: 'a',
+        // author:'b',
+        // title:'c',
+        // year:'d',
+        // genre:'e'
       }
     }
   },
