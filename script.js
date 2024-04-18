@@ -6,7 +6,14 @@ createApp({
   data(){
     return{
       apiUrl: 'server.php',
-      list: []
+      list: [],
+      newDisk:{
+        poster: '',
+        author:'',
+        title:'',
+        year:'',
+        genre:''
+      }
     }
   },
   methods: {

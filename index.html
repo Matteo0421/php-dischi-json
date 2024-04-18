@@ -46,7 +46,32 @@
           <span>{{item.genre}}</span>
          </div>
       </div>
+
+
+      <div>
+        <input 
+        v-model.trim="newDisk.poster"
+        type="text"
+        placeholder="Aggiungi l'Url dell'immaggine">
+        <input 
+        v-model.trim="newDisk.author"
+        placeholder="Aggiungi il nome dell'Autore"
+        type="text">
+        <input
+        v-model.trim="newDisk.title"
+        placeholder="Aggiungi il nome della canzone"
+        type="text">
+        <input
+        v-model.trim="newDisk.year"
+        placeholder="Aggiungi l'anno di uscita della canzone"
+        type="text">
+        <input 
+        v-model.trim="newDisk.genre"
+        placeholder="Aggiungi il genere musicale della canzone"
+        type="text">
+      </div>
     </div>
+
   </main>
 
     
